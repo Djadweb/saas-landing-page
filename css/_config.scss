@@ -1,0 +1,23 @@
+//Config bootstrap
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+* {
+    color: $primary-color!important;
+}
+
+body {
+    background-color: $primary-background-color!important;    
+    font-family: 'DM Sans', sans-serif!important;
+    background-image: url("../img/bottom-background.png");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 8rem;
+}
+
+button {
+    border: none;
+    outline: none!important;
+    border-radius: 10px!important;
+    cursor: pointer;
+}

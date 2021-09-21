@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+* {
+  color: #19191B !important;
+}
+
+body {
+  background-color: #F2F2F2 !important;
+  font-family: "DM Sans", sans-serif !important;
+  background-image: url("../img/bottom-background.png");
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 8rem;
+}
+
+button {
+  border: none;
+  outline: none !important;
+  border-radius: 10px !important;
+  cursor: pointer;
+}
+
+nav .nav-item {
+  margin: 0 1rem;
+}
+
+nav .active {
+  border-bottom: 3px solid #5454D4;
+}
+
+nav .cta {
+  max-width: 200px;
+}
+
+nav .cta button {
+  background-color: #FF7143;
+}
+
+.cta button {
+  padding: 14px 50px;
+  color: #FFF !important;
+  font-weight: 700;
+}
+
+.header {
+  padding: 80px 0;
+}
+
+.header .text h1 {
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 4.5rem;
+  padding: 12px 0;
+}
+
+.header .text p {
+  color: #696871;
+  font-size: 17px;
+  line-height: 30px;
+  padding: 12px 0;
+}
+
+.header .text .cta {
+  padding: 12px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .text .cta button {
+  background-color: #5454D4;
+}
+
+.header .text .cta .go-down {
+  margin-left: 25px;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px #E7E7E7;
+  border-radius: 50px;
+  background-color: #FFFFFF;
+}
+
+.header .hero-img {
+  max-width: 610px;
+  max-height: 644px;
+  margin: 0 auto;
+}
+
+.header .hero-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.clients {
+  padding: 2rem 0;
+}
+
+.clients .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.clients .container .client {
+  padding: 0 1rem;
+}
+
+.subscription-index, .metrics {
+  padding: 80px 0;
+}
+
+.subscription-index .text, .metrics .text {
+  margin: auto 0;
+}
+
+.subscription-index .text h1, .metrics .text h1 {
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 4.5rem;
+  padding: 12px 0;
+}
+
+.subscription-index .text p, .metrics .text p {
+  color: #696871 !important;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.subscription-index .text .cta a, .metrics .text .cta a {
+  color: #5454D4 !important;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.subscription-index img, .metrics img {
+  margin: 80px 0;
+}
+
+.options {
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.options img {
+  max-width: 200px;
+}
+
+.options h3 {
+  padding: 1rem 0;
+  font-weight: bold;
+}
+
+.options p {
+  font-size: 18px;
+  color: #696871 !important;
+}
+
+.plans h1 {
+  font-weight: bold;
+  font-size: 3.3rem;
+}
+
+.plans .choose {
+  text-align: right;
+}
+
+.plans .choose button {
+  width: 160px;
+  height: 50px;
+  font-weight: bold;
+}
+
+.plans .choose .yearly {
+  background-color: #5454D4;
+  color: #FFF !important;
+}
+
+.plans .choose .monthly {
+  background-color: #F7F7FB !important;
+}
+
+.plans .plan {
+  text-align: center;
+  padding: 1rem 0;
+  border-radius: 10px;
+}
+
+.plans .plan .type, .plans .plan .websites, .plans .plan .hosting, .plans .plan .support {
+  color: #696871 !important;
+  font-size: 20px;
+}
+
+.plans .plan .price {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.plans .plan .cta button {
+  width: 75%;
+  border: 1px solid #EAE9F2;
+}
+
+.plans .first-plan, .plans .third-plan {
+  background-color: #F8F8F8;
+}
+
+.plans .first-plan .cta button, .plans .third-plan .cta button {
+  background-color: #FFFFFF;
+  color: #5454D4 !important;
+}
+
+.plans .second-plan {
+  background-color: #FF7143;
+}
+
+.plans .second-plan .type, .plans .second-plan .websites, .plans .second-plan .hosting, .plans .second-plan .support {
+  color: #FFFFFF !important;
+  opacity: .8;
+}
+
+.plans .second-plan .price {
+  color: #FFF !important;
+}
+
+.plans .second-plan .price span {
+  font-size: 32px;
+  color: #FFF !important;
+}
+
+.plans .second-plan .cta button {
+  background-color: #9F3919;
+  border: 1px solid #C31A12;
+}
+
+.plans .third-plan .price span {
+  font-size: 32px;
+}
+
+@media (max-width: 975px) {
+  .container {
+    max-width: 95% !important;
+  }
+  .navbar-collapse {
+    text-align: center;
+  }
+  .navbar-collapse .nav-item {
+    padding: .5rem 0;
+  }
+  .navbar-collapse .cta {
+    margin: 1rem auto;
+  }
+  .active {
+    border: none !important;
+  }
+  .header .text {
+    text-align: center;
+  }
+  .header .text .cta {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header .hero-img {
+    max-width: 500px;
+    max-height: 600px;
+  }
+  .clients .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .clients .container .client {
+    padding: 1.2rem 1rem;
+  }
+  .subscription-index, .metrics {
+    padding: 80px 0;
+  }
+  .subscription-index .text, .metrics .text {
+    margin: auto 0;
+    text-align: center;
+  }
+  .plans {
+    text-align: center;
+  }
+  .plans .choose {
+    text-align: center;
+    padding: 1rem 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
